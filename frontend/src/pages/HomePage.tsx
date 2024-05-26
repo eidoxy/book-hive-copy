@@ -3,13 +3,13 @@ import React from 'react';
 const HomePage = () => {
   return (
     <>
-      <div>
+      <div className='bg-bodybg'>
         <main className="mb-96">
-          <div className="mt md:mt-4 grid grid-cols-2 gap-4 place-items-center h-56">
+          <div className="mt md:mt-4 grid grid-cols-2 gap-4 place-items-center h-56 ">
             <div>
               <ul className="ms-24 mb-16">
                 <li>
-                  <a
+                  <a className='text-header'
                     style={{
                       width: 608,
                       color: '#0F0F0F',
@@ -24,7 +24,7 @@ const HomePage = () => {
                   </a>
                 </li>
                 <li className="mt-4">
-                  <a
+                  <a className='text-header'
                     style={{
                       width: 608,
                       color: '#0F0F0F',
@@ -49,7 +49,7 @@ const HomePage = () => {
                     className="p-6 rounded-lg border-2 bg-transparent border-primarybg-primary text-neutral-600 text-base font-medium font-['Roboto']"
                     style={{ width: 384, height: 64 }}
                   />
-                  <button className="h-16 ml-4 px-10 bg-primary rounded-lg flex justify-center items-center text-white text-xl font-normal font-['Roboto'] hover:bg-orange-400">
+                  <button className="h-16 ml-4 px-10 bg-primary rounded-lg flex justify-center items-center text-white text-xl font-normal font-['Roboto'] hover:bg-gradientfrom">
                     Search
                   </button>
                 </li>
@@ -67,12 +67,12 @@ const HomePage = () => {
         {/*Section 2*/}
         <main className="mt-8 mb-24 flex-auto">
           <div className="flex justify-between ml-24 mr-24 mb-16">
-            <div className="text-stone-900 text-4xl font-medium font-['Roboto']">
+            <div className="text-textbody text-4xl font-medium font-['Roboto']">
               Recommendation
             </div>
             <div />
             <div>
-              <button className="text-primarybg-primary text-xl font-normal font-['Roboto'] hover:text-gray-500">
+              <button className="text-primary text-xl font-normal font-['Roboto'] hover:text-body">
                 <ul className="flex my-3 justify-center items-center">
                   <li className="mr-2">View All</li>
                   <li>
@@ -96,17 +96,17 @@ const HomePage = () => {
             </div>
           </div>
           {/*Card1*/}
-          <div className="ml-24 mr-2 w-56 h-auto rounded-lg shadow border border-neutral-600/opacity-25 flex-col justify-center items-center inline-flex ">
+          <div className="ml-24 mr-2 w-56 h-auto rounded-lg shadow border border-neutral-600/opacity-25 flex-col justify-center items-center inline-flex">
             <ul>
               <li>
                 <img src="assets/images2/RikiSanto.png" />
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Riki Santo
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody  text-3xl font-normal font-['Roboto']">
                     Kisah Kedamaian
                   </div>
                 </div>
@@ -115,13 +115,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody  text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody  text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -137,10 +137,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Aaron Loeb
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     The Young Wizard
                   </div>
                 </div>
@@ -149,13 +149,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -171,10 +171,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Averi Davis
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Story Of Two Friends
                   </div>
                 </div>
@@ -183,13 +183,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -205,10 +205,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Estelle Darcy
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Walk Into The Shadow
                   </div>
                 </div>
@@ -217,13 +217,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -239,10 +239,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Shawn Gracia
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Conouest Of Flame
                   </div>
                 </div>
@@ -251,13 +251,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -271,7 +271,7 @@ const HomePage = () => {
         <main className="mt-8 m-24 flex-auto">
           <div
             style={{ height: 480, width: 1240 }}
-            className="card flex flex-col w-96 h-96 relative bg-gradient-to-r from-orange-500 to-amber-200 rounded-2xl shadow"
+            className="card flex flex-col w-96 h-96 relative bg-gradient-to-r from-gradientfrom to-gradientto rounded-2xl shadow"
           >
             <div>
               <img
@@ -303,12 +303,12 @@ const HomePage = () => {
         {/*Section 4*/}
         <main className="mt-8 mb-24 flex-auto">
           <div className="flex justify-between ml-24 mr-24 mb-16">
-            <div className="text-stone-900 text-4xl font-medium font-['Roboto']">
+            <div className="text-textbody text-4xl font-medium font-['Roboto']">
               Most Popular
             </div>
             <div />
             <div>
-              <button className="text-primarybg-primary text-xl font-normal font-['Roboto'] hover:text-gray-500">
+              <button className="text-primary text-xl font-normal font-['Roboto'] hover:text-body">
                 <ul className="flex my-3 justify-center items-center">
                   <li className="mr-2">View All</li>
                   <li>
@@ -339,10 +339,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Tere Liye
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Bumi
                   </div>
                 </div>
@@ -351,13 +351,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -373,10 +373,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Claudia Wilson
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Soul
                   </div>
                 </div>
@@ -385,13 +385,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -407,10 +407,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Cahaya Dewi
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Rasa Sunyi
                   </div>
                 </div>
@@ -419,13 +419,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -441,10 +441,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Claudia Wilson
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Ranch
                   </div>
                 </div>
@@ -453,13 +453,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -475,10 +475,10 @@ const HomePage = () => {
               </li>
               <li>
                 <div className="w-48 h-28 flex-col justify-center items-center gap-1 inline-flex">
-                  <div className="self-stretch text-center text-neutral-600 text-xl font-normal font-['Roboto']">
+                  <div className="self-stretch text-center text-body text-xl font-normal font-['Roboto']">
                     Tuti Kasih
                   </div>
-                  <div className="mb-4 self-stretch text-center text-stone-900 text-3xl font-normal font-['Roboto']">
+                  <div className="mb-4 self-stretch text-center text-textbody text-3xl font-normal font-['Roboto']">
                     Merinding
                   </div>
                 </div>
@@ -487,13 +487,13 @@ const HomePage = () => {
                 <div className="w-48 h-6 justify-between items-center inline-flex">
                   <a
                     href="#"
-                    className="text-black text-xl font-normal  hover:text-gray-500 font-['Roboto']"
+                    className="text-textbody text-xl font-normal  hover:text-body font-['Roboto']"
                   >
                     Stock
                   </a>
                   <a
                     href="#"
-                    className="text-right text-black text-xl hover:text-gray-500 font-normal font-['Roboto']"
+                    className="text-right text-textbody text-xl hover:text-body font-normal font-['Roboto']"
                   >
                     Shelf
                   </a>
@@ -507,7 +507,7 @@ const HomePage = () => {
         <main className="mt-8 m-24 flex-auto">
           <div
             style={{ height: 480, width: 1240 }}
-            className="card flex bg-gradient-to-r from-orange-500 to-amber-200 rounded-2xl shadow"
+            className="card flex bg-gradient-to-r from-gradientfrom to-gradientto rounded-2xl shadow"
           >
             <div className="flex-none">
               <img
@@ -529,7 +529,7 @@ const HomePage = () => {
                     placeholder="Your Email"
                     className="w-80 h-16 p-6 rounded-lg border-2 border-primarybg-primary bg-transparent text-white justify-start items-center gap-6 inline-flex"
                   />
-                  <button className="w-60 h-16 px-14 bg-primary rounded-lg flex-col justify-center items-center inline-flex text-white text-xl font-normal font-['Roboto'] hover:bg-orange-400">
+                  <button className="w-60 h-16 px-14 bg-primary rounded-lg flex-col justify-center items-center inline-flex text-white text-xl font-normal font-['Roboto'] hover:bg-gradientfrom">
                     Subscribe
                   </button>
                 </li>
