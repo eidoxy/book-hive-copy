@@ -46,10 +46,10 @@ const HomePage = () => {
                     name="search"
                     id="search"
                     placeholder="Search Books, Authors, or Categories"
-                    className="p-6 rounded-lg border-2 bg-transparent border-yellow-700 text-neutral-600 text-base font-medium font-['Roboto']"
+                    className="p-6 rounded-lg border-2 bg-transparent border-primarybg-primary text-neutral-600 text-base font-medium font-['Roboto']"
                     style={{ width: 384, height: 64 }}
                   />
-                  <button className="h-16 ml-4 px-10 bg-yellow-700 rounded-lg flex justify-center items-center text-white text-xl font-normal font-['Roboto'] hover:bg-orange-400">
+                  <button className="h-16 ml-4 px-10 bg-primary rounded-lg flex justify-center items-center text-white text-xl font-normal font-['Roboto'] hover:bg-orange-400">
                     Search
                   </button>
                 </li>
@@ -72,7 +72,7 @@ const HomePage = () => {
             </div>
             <div />
             <div>
-              <button className="text-yellow-700 text-xl font-normal font-['Roboto'] hover:text-gray-500">
+              <button className="text-primarybg-primary text-xl font-normal font-['Roboto'] hover:text-gray-500">
                 <ul className="flex my-3 justify-center items-center">
                   <li className="mr-2">View All</li>
                   <li>
@@ -308,7 +308,7 @@ const HomePage = () => {
             </div>
             <div />
             <div>
-              <button className="text-yellow-700 text-xl font-normal font-['Roboto'] hover:text-gray-500">
+              <button className="text-primarybg-primary text-xl font-normal font-['Roboto'] hover:text-gray-500">
                 <ul className="flex my-3 justify-center items-center">
                   <li className="mr-2">View All</li>
                   <li>
@@ -527,9 +527,9 @@ const HomePage = () => {
                     name="search"
                     id="search"
                     placeholder="Your Email"
-                    className="w-80 h-16 p-6 rounded-lg border-2 border-yellow-700 bg-transparent text-white justify-start items-center gap-6 inline-flex"
+                    className="w-80 h-16 p-6 rounded-lg border-2 border-primarybg-primary bg-transparent text-white justify-start items-center gap-6 inline-flex"
                   />
-                  <button className="w-60 h-16 px-14 bg-yellow-700 rounded-lg flex-col justify-center items-center inline-flex text-white text-xl font-normal font-['Roboto'] hover:bg-orange-400">
+                  <button className="w-60 h-16 px-14 bg-primary rounded-lg flex-col justify-center items-center inline-flex text-white text-xl font-normal font-['Roboto'] hover:bg-orange-400">
                     Subscribe
                   </button>
                 </li>
