@@ -36,7 +36,7 @@ const CategoryTable = () => {
             to="/data-management/create"
             className={`group max-h-12 rounded-full flex items-center gap-2.5 py-2 px-6 font-medium text-white duration-300 ease-in-out bg-primary hover:bg-primarydark dark:hover:bg-primarydark`}
           >
-            + Tambah
+            + Add
           </NavLink>
         </div>
 
