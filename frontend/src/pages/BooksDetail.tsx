@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const HomePage = () => {
+const BooksDetail = () => {
   return (
-    <>
-        {/* Header start */}
-{/* Navbar */}
+<div className='bg-bodybg'>
+  {/* Navbar */}
   {/* Navbar */}
   <nav className="bg-bodybg fixed w-full z-20 top-0 start-0   ">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -62,53 +61,48 @@ const HomePage = () => {
     </div>
   </nav>
   {/*Tutup Navbar */}
-{/* Header ends */}
-      <div className='bg-bodybg'>
-        <main className="mb-96">
-          <div className="mt md:mt-4 grid grid-cols-2 gap-4 place-items-center h-56 ">
-            <div>
-              <ul className="ms-24 mb-16">
-                <li>
-                  <a className="text-header text-6xl font-serif font-bold"
-                  >
-                    The Whole World Open Up To You
-                  </a>
-                </li>
-                <li className="mt-4">
-                  <a className="text-header text-lg font-serif font-normal"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.
-                  </a>
-                </li>
-              </ul>
-              <ul className="ms-24">
-                <li className="w-full h-16 flex justify-start items-center">
-                  <input
-                    name="search"
-                    id="search"
-                    placeholder="Search Books, Authors, or Categories"
-                    className="p-6 rounded-lg border-2 bg-transparent border-primarybg-primary text-neutral-600 text-base font-medium font-['Roboto']"
-                    style={{ width: 384, height: 64 }}
-                  />
-                  <button className="h-16 ml-4 px-10 bg-primary rounded-lg flex justify-center items-center text-white text-xl font-normal font-['Roboto'] hover:bg-gradientfrom">
-                    Search
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <img
-                style={{ width: 529, height: 531 }}
-                src="assets/images2/Globe and Book.png"
-              />
-            </div>
-          </div>
-          {/* Section 1 ends */}
-        </main>
-        {/*Section 2*/}
-        <main className="mt-8 mb-24 flex-auto">
+  {/*Section 1*/}
+  <main className="flex-auto bg-bodybg">
+    <div style={{height: 900, width: 1240}} className="grid grid-cols-2 ml-24 w-96 h-96 relative bg-gradient-to-r from-gradientfrom to-gradientto rounded-2xl shadow">
+      <div>
+        <img src="assets/images2/Tere Liye.svg" className="w-56 h-80 m-16 ml-16 rounded-lg shadow" />
+      </div>
+      <div className="flex flex-col justify-center">
+        <ul>
+          <li className="mb-10 mt-24 text-white text-7xl font-medium font-serif leading-10">Bumi</li>
+          <li className="mb-10 text-white text-4xl font-normal font-['Roboto']">Tere Liye</li>
+          <li className="w-96 text-white text-xl font-normal font-['Roboto']">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li className="ml-16 text-white text-4xl font-normal font-['Roboto']">Description</li>
+          <li className="mt-2 ml-16 break-words w-96 text-white text-xl font-normal font-['Roboto']">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida risus eu dui faucibus, ac feugiat urna ultrices. Aenean ligula arcu, pulvinar non gravida quis, semper id felis.<br /><br />
+            Phasellus pellentesque elit eget ante aliquet, quis dictum velit tincidunt. Vestibulum luctus tellus ut augue cursus, eleifend laoreet urna cursus. Praesent sit amet ipsum non libero ullamcorper auctor sed a sem.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li className="mb-2 w-28 text-white text-4xl font-normal font-['Roboto']">
+            Editor
+          </li>
+          <li className="mb-24 w-96 text-white text-xl font-normal font-['Roboto'] break-words">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </li>
+          <li className="mb-2 w-28 text-white text-4xl font-normal font-['Roboto']">
+            Language
+          </li>
+          <li className="w-96 text-white text-xl font-normal font-['Roboto'] break-words">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  {/*Section 1 Ends*/}
+  <main className="mt-8 mb-24 flex-auto">
           <div className="flex justify-between ml-24 mr-24 mb-16">
             <div className="text-textbody text-3xl font-medium font-['Roboto']">
               Recommendation
@@ -310,41 +304,8 @@ const HomePage = () => {
           </div>
         </main>
         {/*Section 2 ends*/}
-        {/*Section 3*/}
-        <main className="mt-8 m-24 flex-auto">
-          <div
-            style={{ height: 480, width: 1240 }}
-            className="card flex flex-col w-96 h-96 relative bg-gradient-to-r from-gradientfrom to-gradientto rounded-2xl shadow"
-          >
-            <div>
-              <img
-                src="assets/images2/Shawn Gracia.svg"
-                className="w-56 h-80 left-[843px] top-[80px] absolute rounded-lg"
-              />
-              <div className="flex flex-col m-16">
-                <div className="mb-8 text-white text-4xl font-medium font-['Roboto']">
-                  Our Recommendation
-                </div>
-                <div className="mb-4 text-white text-5xl font-medium font-['Roboto']">
-                  Conouest Of Flame
-                </div>
-                <div className="mb-4 w-96 text-white text-3xl font-normal font-['Roboto']">
-                  Shawn Gracia
-                </div>
-                <div className="w-1/2 text-white text-xl font-normal font-['Roboto']">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-        {/*Section 3 ends*/}
-        {/*Section 4*/}
-        <main className="mt-8 mb-24 flex-auto">
+  {/*Section 4*/}
+  <main className="mt-8 mb-24 flex-auto">
           <div className="flex justify-between ml-24 mr-24 mb-16">
             <div className="text-textbody text-3xl font-medium font-['Roboto']">
               Most Popular
@@ -546,43 +507,8 @@ const HomePage = () => {
           </div>
         </main>
         {/*Section 4 ends*/}
-        {/*Section 5*/}
-        <main className="mt-8 m-24 flex-auto">
-          <div
-            style={{ height: 480, width: 1240 }}
-            className="card flex bg-gradient-to-r from-gradientfrom to-gradientto rounded-2xl shadow"
-          >
-            <div className="flex-none">
-              <img
-                src="assets/images2/mail with a frosted glass effect.svg"
-                className="m-24"
-              />
-            </div>
-            <div className="flex items-center justify-center flex-grow">
-              <ul>
-                <li>
-                  <a className="text-white text-4xl font-medium font-['Roboto']">
-                    Subscribe to our blog for the latest information.
-                  </a>
-                </li>
-                <li className="flex items-center mt-8 gap-4">
-                  <input
-                    name="search"
-                    id="search"
-                    placeholder="Your Email"
-                    className="w-80 h-16 p-6 rounded-lg border-2 border-primarybg-primary bg-transparent text-white justify-start items-center gap-6 inline-flex"
-                  />
-                  <button className="w-60 h-16 px-14 bg-primary rounded-lg flex-col justify-center items-center inline-flex text-white text-xl font-normal font-['Roboto'] hover:bg-gradientfrom">
-                    Subscribe
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </main>
-      </div>
-      {/*Footer*/}
-<footer>
+  {/*Footer*/}
+  <footer>
   <div className="p-10 bg-white text-textbody">
     <div className="max-w-7xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-flow-row gap-4">
@@ -638,11 +564,10 @@ const HomePage = () => {
     </div>
   </div>        
 </footer>
-{/*Footer ends*/}
+  {/*Footer ends*/}
+</div>
 
-    </>
-    
-  );
-};
+  )
+}
 
-export default HomePage;
+export default BooksDetail
